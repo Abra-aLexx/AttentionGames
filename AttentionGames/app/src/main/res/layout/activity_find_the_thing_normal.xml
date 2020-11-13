@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindTheThingNormalActivity"
+    android:background="@drawable/gradient"
+    android:id="@+id/layoutFTNormal">
+    <TextView
+        android:id="@+id/question01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/find"
+        android:layout_marginStart="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/question02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/question01">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgButton01"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius2"
+                android:contentDescription="@string/picture_for_game"
+                android:onClick="onClickImageButtons"
+                tools:ignore="NestedWeights" />
+
+            <ImageButton
+                android:id="@+id/imgButton02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius2"
+                android:contentDescription="@string/picture_for_game"
+                android:onClick="onClickImageButtons"
+                tools:ignore="NestedWeights" />
+
+            <ImageButton
+                android:id="@+id/imgButton03"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius2"
+                android:contentDescription="@string/picture_for_game"
+                android:onClick="onClickImageButtons"
+                tools:ignore="NestedWeights" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgButton04"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius2"
+                android:contentDescription="@string/picture_for_game"
+                android:onClick="onClickImageButtons"
+                tools:ignore="NestedWeights" />
+
+            <ImageButton
+                android:id="@+id/imgButton05"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius2"
+                android:contentDescription="@string/picture_for_game"
+                android:onClick="onClickImageButtons"
+                tools:ignore="NestedWeights" />
+
+            <ImageButton
+                android:id="@+id/imgButton06"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius2"
+                android:contentDescription="@string/picture_for_game"
+                android:onClick="onClickImageButtons"
+                tools:ignore="NestedWeights" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgButton07"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius2"
+                android:contentDescription="@string/picture_for_game"
+                android:onClick="onClickImageButtons"
+                tools:ignore="NestedWeights" />
+
+            <ImageButton
+                android:id="@+id/imgButton08"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius2"
+                android:contentDescription="@string/picture_for_game"
+                android:onClick="onClickImageButtons"
+                tools:ignore="NestedWeights" />
+
+            <ImageButton
+                android:id="@+id/imgButton09"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius2"
+                android:contentDescription="@string/picture_for_game"
+                android:onClick="onClickImageButtons"
+                tools:ignore="NestedWeights" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgButton010"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius2"
+                android:contentDescription="@string/picture_for_game"
+                android:onClick="onClickImageButtons"
+                tools:ignore="NestedWeights" />
+
+            <ImageButton
+                android:id="@+id/imgButton011"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius2"
+                android:contentDescription="@string/picture_for_game"
+                android:onClick="onClickImageButtons"
+                tools:ignore="NestedWeights" />
+
+            <ImageButton
+                android:id="@+id/imgButton012"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius2"
+                android:contentDescription="@string/picture_for_game"
+                android:onClick="onClickImageButtons"
+                tools:ignore="NestedWeights" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgButton013"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius2"
+                android:contentDescription="@string/picture_for_game"
+                android:onClick="onClickImageButtons"
+                tools:ignore="NestedWeights" />
+
+            <ImageButton
+                android:id="@+id/imgButton014"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius2"
+                android:contentDescription="@string/picture_for_game"
+                android:onClick="onClickImageButtons"
+                tools:ignore="NestedWeights" />
+
+            <ImageButton
+                android:id="@+id/imgButton015"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius2"
+                android:contentDescription="@string/picture_for_game"
+                android:onClick="onClickImageButtons"
+                tools:ignore="NestedWeights" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Attention Games</string>
+    <string name="testStroup">Тест Струпа</string>
+    <string name="sum">Сумма цифр</string>
+    <string name="test_shult">Тест Шульте</string>
+    <string name="find_the_thing">Найди предмет</string>
+    <string name="main_title">Attention games</string>
+    <string name="find">Найдите:</string>
+    <string name="start_game_button">Начать</string>
+    <string name="choose_difficulty">Выберите уровень сложности:</string>
+    <string name="easy">Легкий</string>
+    <string name="almost_easy">Любитель</string>
+    <string name="professional">Профессионал</string>
+    <string name="master">Мастер</string>
+    <string name="ass">Эксперт</string>
+    <string name="write_numbers">Введите числа</string>
+    <string name="check">Проверить</string>
+    <string name="back_to_menu">Вернуться в главное меню</string>
+    <string name="picture_for_game">Картинка для игры</string>
+    <string name="normal">Средний</string>
+    <string name="hard">Сложный</string>
+    <string name="choose_speed">Выберите скорость появления слов:</string>
+    <string name="_2seconds">2 секунды</string>
+    <string name="_1_5seconds">1.5 секунды</string>
+    <string name="_1second">1 секунда</string>
+    <string name="_0_75second">0.75 секунды</string>
+    <string name="_0_5second">0.5 секунды</string>
+    <string name="_0_4second">0.4 секунды</string>
+    <string name="_0_35second">0.35 секунды</string>
+    <string name="_0_275second">0.275 секунды</string>
+</resources>
